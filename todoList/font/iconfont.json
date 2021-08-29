@@ -1,0 +1,16 @@
+{
+  "id": "2774747",
+  "name": "js小项目(todoList)",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7312585",
+      "name": "减号",
+      "font_class": "jianhao-",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

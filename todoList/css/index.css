@@ -9,7 +9,6 @@ body {
   font-family: Helvetica Neue, Tahoma, Arial, PingFangSC-Regular, Hiragino Sans GB, Microsoft Yahei, sans-serif;
 }
 a {
-	
   color: #333;
   text-decoration: none;
 }
@@ -21,9 +20,6 @@ img {
 ul {
   list-style: none;
 }
-ul {
-  list-style: none;
-}
 .ellipsis-2 {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -31,11 +27,19 @@ ul {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+a:hover {
+  color: red;
+}
 td {
   white-space: nowrap;
 }
 .hide {
   display: none;
+}
+.nav {
+  float: right;
+  width: 200px;
+  height: 100px;
 }
 header {
   width: 200px;
@@ -63,4 +67,3 @@ header {
 .boardDelete {
   float: right;
 }
-
