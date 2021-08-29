@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ToDoList.css">
+    <script src="./font/iconfont.js"></script>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="w header">
+            <h2>ToDoList</h2>
+            <input type="search" placeholder="start a plan!">
+        </div>
+    </nav>
+    <div class="w">
+        <div class="doing">
+            <h2>正在进行</h2>
+            <span class="doingCount">0</span>
+        </div>
+        <ul class="doingUl">
+            <li class="doingLi hide">
+                <input type="checkbox">
+                <p>asiduhaiusduhaisuhdiaushdia</p>
+                <i>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jianhao-"></use>
+                    </svg>
+                </i>
+            </li>
+        </ul>
+        <div class="endDoing">
+            <h2>已经完成 </h2>
+            <span class="doingCount">0</span>
+        </div>
+        <ul class="undoingUl">
+            <li class="doingLi hide">
+                <input type="checkbox">
+                <p>asiduhaiusduhaisuhdiaushdia</p>
+                <i>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-jianhao-"></use>
+                    </svg>
+                </i>
+            </li>
+        </ul>
+    </div>
+    <script src="js/toDoList.js"></script>
+</body>
+
+</html>

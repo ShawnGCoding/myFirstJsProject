@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: Helvetica Neue, Tahoma, Arial, PingFangSC-Regular, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
+a {
+	
+  color: #333;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+.ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+td {
+  white-space: nowrap;
+}
+.hide {
+  display: none;
+}
+header {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inputBoxWrapper {
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+}
+.inputBoxWrapper textarea {
+  resize: none;
+}
+.inputBoxWrapper .warning {
+  color: red;
+}
+.boardTitle {
+  background-color: gray;
+}
+.boardContent {
+  background-color: #f9ebd6;
+  padding: 2em 10px;
+}
+.boardDelete {
+  float: right;
+}
+
